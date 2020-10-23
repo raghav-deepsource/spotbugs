@@ -5,7 +5,6 @@ name = "java"
 enabled = true
 
   [analyzers.meta]
-  build_system = "gradle"
   gradle_modules = [
     { name = ":spotbugs", source_sets = ["main"] }
   ]
