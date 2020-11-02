@@ -6,5 +6,5 @@ enabled = true
 
   [analyzers.meta]
   gradle_modules = [
-    { name = ":spotbugs", source_sets = ["main"] }
+    ":spotbugs"
   ]
