@@ -8,3 +8,4 @@ enabled = true
   gradle_modules = [
     ":spotbugs"
   ]
+  java_version = 11
